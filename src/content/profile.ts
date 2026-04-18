@@ -167,7 +167,7 @@ export const profile = {
     defaultTitle: "Quinn Welton — Front-End Engineer", // e.g. "Quinn Welton — Front-End Engineer"
     defaultDescription:
       "I build modern, accessible, and performant websites and web applications.", // falls back to bio.short if empty
-    ogImage: "/og.png", // /og.png
+    ogImage: "/portfolio-og-img.avif", // /og.png
     themeColor: "", // e.g. "#0b0b0b"
     locale: "en-US",
   },
