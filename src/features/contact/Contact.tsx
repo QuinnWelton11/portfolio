@@ -25,7 +25,7 @@ export function Contact() {
         <div className="md:col-span-9">
           <motion.h2
             id="contact-heading"
-            className="font-display font-light text-[clamp(2rem,5vw,4.5rem)] text-[var(--ink)] mb-6 leading-tight"
+            className="font-display font-light text-[clamp(2rem,5vw,4.5rem)] text-(--ink) mb-6 leading-tight"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -37,7 +37,7 @@ export function Contact() {
           </motion.h2>
 
           <motion.p
-            className="text-[var(--muted)] text-base max-w-sm mb-12 leading-relaxed"
+            className="text-(--muted) text-base max-w-sm mb-12 leading-relaxed"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -56,16 +56,16 @@ export function Contact() {
           >
             <a
               href={`mailto:${profile.contact.email}`}
-              className="inline-flex items-center gap-3 font-display font-light text-2xl text-[var(--ink)] hover:text-[var(--accent)] transition-colors group"
+              className="inline-flex items-center gap-3 font-display font-light text-2xl text-(--ink) hover:text-(--accent) transition-colors group"
             >
               <span>{profile.contact.email}</span>
-              <span className="text-[var(--rule)] group-hover:text-[var(--accent)] transition-colors" aria-hidden="true">→</span>
+              <span className="text-(--rule) group-hover:text-(--accent) transition-colors" aria-hidden="true">→</span>
             </a>
           </motion.div>
 
           {/* Social links */}
           <motion.div
-            className="flex flex-wrap gap-6 mt-12 pt-12 border-t border-[var(--rule)]"
+            className="flex flex-wrap gap-6 mt-12 pt-12 border-t border-(--rule)"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -78,7 +78,7 @@ export function Contact() {
                 href={href}
                 target={href.startsWith("http") ? "_blank" : undefined}
                 rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
-                className="font-mono text-[11px] tracking-widest uppercase text-[var(--muted)] hover:text-[var(--accent)] transition-colors"
+                className="font-mono text-[11px] tracking-widest uppercase text-(--muted) hover:text-(--accent) transition-colors"
               >
                 {label}
               </a>

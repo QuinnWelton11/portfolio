@@ -18,10 +18,10 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
     >
       <Link
         href={`/work/${project.slug}`}
-        className="group block focus-visible:outline-[var(--accent)]"
+        className="group block focus-visible:outline-(--accent)"
       >
         {/* Image */}
-        <div className="relative overflow-hidden rounded-sm aspect-[4/3] mb-5 bg-[var(--surface)]">
+        <div className="relative overflow-hidden rounded-sm aspect-[4/3] mb-5 bg-(--surface)">
           {project.image ? (
             <Image
               src={project.image}
@@ -36,20 +36,20 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
             </div>
           )}
           {/* Hover overlay */}
-          <div className="absolute inset-0 border border-[var(--accent)] opacity-0 group-hover:opacity-100 transition-opacity rounded-sm" />
+          <div className="absolute inset-0 border border-(--accent) opacity-0 group-hover:opacity-100 transition-opacity rounded-sm" />
         </div>
 
         {/* Meta */}
         <div className="flex items-start justify-between gap-4">
           <div>
             <Marginalia className="block mb-1">{project.year}</Marginalia>
-            <h3 className="font-display font-light text-xl text-[var(--ink)] group-hover:text-[var(--accent)] transition-colors">
+            <h3 className="font-display font-light text-xl text-(--ink) group-hover:text-(--accent) transition-colors">
               {project.name}
             </h3>
-            <p className="text-sm text-[var(--muted)] mt-1 leading-snug">{project.tagline}</p>
+            <p className="text-sm text-(--muted) mt-1 leading-snug">{project.tagline}</p>
           </div>
           <span
-            className="font-mono text-[var(--muted)] text-xs mt-1 group-hover:text-[var(--accent)] transition-colors shrink-0"
+            className="font-mono text-(--muted) text-xs mt-1 group-hover:text-(--accent) transition-colors shrink-0"
             aria-hidden="true"
           >
             →
@@ -59,7 +59,7 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
         {/* Stack tags */}
         <div className="flex flex-wrap gap-1.5 mt-3">
           {project.stack.map((tech) => (
-            <span key={tech} className="font-mono text-[10px] text-[var(--muted)]">
+            <span key={tech} className="font-mono text-[10px] text-(--muted)">
               {tech}
             </span>
           ))}

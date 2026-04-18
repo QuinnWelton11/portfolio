@@ -34,7 +34,7 @@ export function Timeline() {
         <div className="md:col-span-9">
           <motion.h2
             id="experience-heading"
-            className="font-display font-light text-[clamp(1.75rem,3.5vw,3rem)] text-[var(--ink)] mb-12 leading-tight"
+            className="font-display font-light text-[clamp(1.75rem,3.5vw,3rem)] text-(--ink) mb-12 leading-tight"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
@@ -44,7 +44,7 @@ export function Timeline() {
             Where I&apos;ve Worked
           </motion.h2>
 
-          <ol className="relative border-l border-[var(--rule)] pl-8 space-y-12 list-none m-0" aria-label="Work experience">
+          <ol className="relative border-l border-(--rule) pl-8 space-y-12 list-none m-0" aria-label="Work experience">
             {experience.map((role, i) => (
               <motion.li
                 key={`${role.company}-${role.start}`}
@@ -57,24 +57,24 @@ export function Timeline() {
               >
                 {/* Timeline dot */}
                 <span
-                  className="absolute -left-[2.1rem] top-1.5 w-2 h-2 rounded-full border-2 border-[var(--accent)] bg-[var(--paper)]"
+                  className="absolute -left-[2.1rem] top-1.5 w-2 h-2 rounded-full border-2 border-(--accent) bg-(--paper)"
                   aria-hidden="true"
                 />
 
                 <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 mb-2">
                   <div>
-                    <h3 className="font-display font-light text-lg text-[var(--ink)]">{role.role}</h3>
+                    <h3 className="font-display font-light text-lg text-(--ink)">{role.role}</h3>
                     {role.companyUrl ? (
                       <a
                         href={role.companyUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-mono text-xs text-[var(--accent)] hover:underline"
+                        className="font-mono text-xs text-(--accent) hover:underline"
                       >
                         {role.company}
                       </a>
                     ) : (
-                      <span className="font-mono text-xs text-[var(--muted)]">{role.company}</span>
+                      <span className="font-mono text-xs text-(--muted)">{role.company}</span>
                     )}
                   </div>
                   <Marginalia className="shrink-0">
@@ -82,7 +82,7 @@ export function Timeline() {
                   </Marginalia>
                 </div>
 
-                <p className="text-sm text-[var(--muted)] leading-relaxed">{role.summary}</p>
+                <p className="text-sm text-(--muted) leading-relaxed">{role.summary}</p>
               </motion.li>
             ))}
           </ol>
@@ -103,10 +103,10 @@ export function Timeline() {
                     custom={i}
                   >
                     <div>
-                      <h3 className="font-display font-light text-base text-[var(--ink)]">{ed.degree}</h3>
-                      <span className="font-mono text-xs text-[var(--muted)]">{ed.school}</span>
+                      <h3 className="font-display font-light text-base text-(--ink)">{ed.degree}</h3>
+                      <span className="font-mono text-xs text-(--muted)">{ed.school}</span>
                       {ed.gpa && (
-                        <span className="font-mono text-xs text-[var(--muted)] ml-3">· {ed.gpa}</span>
+                        <span className="font-mono text-xs text-(--muted) ml-3">· {ed.gpa}</span>
                       )}
                     </div>
                     <Marginalia className="shrink-0">

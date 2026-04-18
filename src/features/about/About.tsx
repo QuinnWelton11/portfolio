@@ -27,7 +27,7 @@ export function About() {
         <div className="md:col-span-9">
           <motion.h2
             id="about-heading"
-            className="font-display font-light text-[clamp(2rem,4vw,3.5rem)] text-[var(--ink)] mb-8 leading-tight"
+            className="font-display font-light text-[clamp(2rem,4vw,3.5rem)] text-(--ink) mb-8 leading-tight"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
@@ -38,7 +38,7 @@ export function About() {
           </motion.h2>
 
           <motion.p
-            className="text-[var(--ink)] text-lg leading-relaxed max-w-prose mb-12"
+            className="text-(--ink) text-lg leading-relaxed max-w-prose mb-12"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
@@ -61,7 +61,7 @@ export function About() {
               {stack.primary.map((tech) => (
                 <span
                   key={tech}
-                  className="font-mono text-xs px-3 py-1.5 rounded-full border border-[var(--rule)] text-[var(--muted)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-colors"
+                  className="font-mono text-xs px-3 py-1.5 rounded-full border border-(--rule) text-(--muted) hover:border-(--accent) hover:text-(--accent) transition-colors"
                 >
                   {tech}
                 </span>
@@ -75,7 +75,7 @@ export function About() {
                   {stack.learning.map((tech) => (
                     <span
                       key={tech}
-                      className="font-mono text-xs px-3 py-1.5 rounded-full border border-dashed border-[var(--rule)] text-[var(--muted)]"
+                      className="font-mono text-xs px-3 py-1.5 rounded-full border border-dashed border-(--rule) text-(--muted)"
                     >
                       {tech}
                     </span>

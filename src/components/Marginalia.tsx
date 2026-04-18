@@ -7,7 +7,7 @@ export function Marginalia({
 }) {
   return (
     <span
-      className={`font-mono text-[11px] tracking-widest uppercase text-[var(--muted)] ${className}`}
+      className={`font-mono text-[11px] tracking-widest uppercase text-(--muted) ${className}`}
     >
       {children}
     </span>

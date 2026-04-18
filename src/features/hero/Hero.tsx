@@ -34,20 +34,20 @@ export function Hero() {
         custom={0}
       >
         <Marginalia>{profile.location}</Marginalia>
-        <span aria-hidden="true" className="w-1 h-1 rounded-full bg-[var(--rule)]" />
+        <span aria-hidden="true" className="w-1 h-1 rounded-full bg-(--rule)" />
         <span className="font-mono text-[11px] tracking-widest uppercase flex items-center gap-1.5">
           <span
-            className="inline-block w-1.5 h-1.5 rounded-full bg-[var(--accent)]"
+            className="inline-block w-1.5 h-1.5 rounded-full bg-(--accent)"
             aria-hidden="true"
           />
-          <span className="text-[var(--accent)]">{profile.availability}</span>
+          <span className="text-(--accent)">{profile.availability}</span>
         </span>
       </motion.div>
 
       {/* Headline — staggered words */}
       <motion.h1
         id="hero-heading"
-        className="font-display font-light text-[clamp(3rem,8vw,7rem)] leading-[0.95] tracking-tight text-[var(--ink)] mb-8 max-w-4xl"
+        className="font-display font-light text-[clamp(3rem,8vw,7rem)] leading-[0.95] tracking-tight text-(--ink) mb-8 max-w-4xl"
         variants={staggerContainer}
         initial="hidden"
         animate="visible"
@@ -72,7 +72,7 @@ export function Hero() {
         variants={staggerContainer}
       >
         <motion.div variants={fadeUp} custom={words.length + 1} className="max-w-sm">
-          <p className="text-[var(--muted)] text-sm leading-relaxed">{profile.bio.short}</p>
+          <p className="text-(--muted) text-sm leading-relaxed">{profile.bio.short}</p>
         </motion.div>
 
         <motion.div
@@ -86,7 +86,7 @@ export function Hero() {
               href={href}
               target={href.startsWith("http") ? "_blank" : undefined}
               rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
-              className="font-mono text-[11px] tracking-widest uppercase text-[var(--muted)] hover:text-[var(--accent)] transition-colors"
+              className="font-mono text-[11px] tracking-widest uppercase text-(--muted) hover:text-(--accent) transition-colors"
             >
               {label}
             </a>
@@ -102,7 +102,7 @@ export function Hero() {
         transition={{ delay: 1.2, duration: 0.6 }}
         aria-hidden="true"
       >
-        <div className="w-px h-8 bg-[var(--rule)]" />
+        <div className="w-px h-8 bg-(--rule)" />
         <Marginalia>Scroll</Marginalia>
       </motion.div>
     </section>

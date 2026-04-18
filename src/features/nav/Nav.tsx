@@ -21,7 +21,7 @@ export function Nav() {
       >
         <a
           href="/"
-          className="font-display text-sm font-light tracking-tight text-[var(--ink)] hover:text-[var(--accent)] transition-colors"
+          className="font-display text-sm font-light tracking-tight text-(--ink) hover:text-(--accent) transition-colors"
         >
           {profile.displayName || profile.name}
         </a>
@@ -32,7 +32,7 @@ export function Nav() {
               <li key={href}>
                 <a
                   href={href}
-                  className="font-mono text-[11px] tracking-widest uppercase text-[var(--muted)] hover:text-[var(--ink)] transition-colors"
+                  className="font-mono text-[11px] tracking-widest uppercase text-(--muted) hover:text-(--ink) transition-colors"
                 >
                   {label}
                 </a>

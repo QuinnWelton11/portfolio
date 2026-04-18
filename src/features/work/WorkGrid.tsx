@@ -24,7 +24,7 @@ export function WorkGrid() {
         </div>
         <motion.h2
           id="work-heading"
-          className="font-display font-light text-[clamp(1.75rem,3.5vw,3rem)] text-[var(--ink)] leading-tight"
+          className="font-display font-light text-[clamp(1.75rem,3.5vw,3rem)] text-(--ink) leading-tight"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
@@ -52,7 +52,7 @@ export function WorkGrid() {
           href="https://github.com/QuinnWelton11"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-mono text-[11px] tracking-widest uppercase text-[var(--muted)] hover:text-[var(--accent)] transition-colors flex items-center gap-2"
+          className="font-mono text-[11px] tracking-widest uppercase text-(--muted) hover:text-(--accent) transition-colors flex items-center gap-2"
         >
           <span>All projects on GitHub</span>
           <span aria-hidden="true">→</span>
