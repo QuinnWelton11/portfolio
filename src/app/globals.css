@@ -23,7 +23,7 @@
 :root {
   --paper: oklch(98% 0.01 85);
   --ink: oklch(22% 0.02 260);
-  --accent: oklch(91.063% 0.18126 141.434);
+  --accent: oklch(73.691% 0.15828 235.877);
   --muted: oklch(0% 0 0);
   --rule: oklch(88% 0.01 85);
   --surface: oklch(95% 0.01 85);
@@ -32,7 +32,7 @@
 html.dark {
   --paper: oklch(14% 0.01 260);
   --ink: oklch(93% 0.01 85);
-  --accent: oklch(89.094% 0.20477 148.797);
+  --accent: oklch(85.681% 0.11089 216.82);
   --muted: oklch(94.096% 0.01551 86.401);
   --rule: oklch(24% 0.01 260);
   --surface: oklch(18% 0.01 260);

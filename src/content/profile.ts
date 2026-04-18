@@ -51,13 +51,12 @@ export const profile = {
     {
       slug: "mexaclean",
       name: "Mexaclean",
-      tagline:
-        "A cleaning service website built with Next.js and Tailwind CSS.",
+      tagline: "Booking and marketing site for a Vancouver cleaning company.",
       description:
-        "Mexaclean is a modern cleaning service website designed to provide users with an easy and efficient way to book cleaning services. Built with Next.js for server-side rendering and Tailwind CSS for styling, Mexaclean offers a seamless user experience across all devices.",
+        "Client site for Mexaclean, a Vancouver-based cleaning service. Built a responsive marketing and booking experience in React and TypeScript with Tailwind CSS, focusing on fast load times, clear calls to action, and a polished mobile experience.",
       url: "https://mexaclean.ca",
       repo: "https://github.com/QuinnWelton11/mexaclean",
-      stack: ["React", "Tailwind CSS", "JavaScript"],
+      stack: ["React", "TypeScript", "Tailwind CSS"],
       year: 2025,
       featured: true,
       image: "/projects/mexa1-1img.png",
@@ -66,12 +65,12 @@ export const profile = {
     {
       slug: "terrafamilia",
       name: "Terrafamilia",
-      tagline: "A family tree visualization tool built with React and D3.js.",
+      tagline: "A community forum for a client to connect with their audience.",
       description:
-        "Terrafamilia is an interactive family tree visualization tool that allows users to create and explore their family history. Built with React for the user interface and D3.js for data visualization, Terrafamilia provides a dynamic and engaging way to discover and share family stories.",
+        "Terrafamilia is a forum-style community web app built for a client who wanted a dedicated space to interact with their online community and friends. Built in React and TypeScript with Tailwind CSS and Supabase handling auth and real-time data, the app supports threaded discussions and user profiles.",
       url: "https://terrafamilia.net",
       repo: "https://github.com/QuinnWelton11/terrafamilia",
-      stack: ["React", "Tailwind CSS", "JavaScript", "Supabase"],
+      stack: ["React", "TypeScript", "Tailwind CSS", "Supabase"],
       year: 2025,
       featured: true,
       image: "/projects/terra1-1img.png",
@@ -80,13 +79,12 @@ export const profile = {
     {
       slug: "qraft-digital",
       name: "Qraft Digital",
-      tagline:
-        "A digital marketing agency website built with Next.js and Tailwind CSS.",
+      tagline: "Personal freelance brand and agency site.",
       description:
-        "Qraft Digital is a sleek and modern website for a digital marketing agency. Built with Next.js for server-side rendering and Tailwind CSS for styling, the Qraft Digital website offers a professional and user-friendly experience for potential clients to learn about the agency's services and portfolio.",
+        "Qraft Digital is my freelance web development brand. Designed and built the site from scratch in React and JavaScript with Tailwind CSS to showcase services and attract clients — clean layout, fast performance, and a clear value proposition for small businesses.",
       url: "https://qraftdigital.ca",
       repo: "https://github.com/QuinnWelton11/qraft-digital",
-      stack: ["React", "Tailwind CSS", "JavaScript"],
+      stack: ["React", "JavaScript", "Tailwind CSS"],
       year: 2025,
       featured: true,
       image: "/projects/qraft1-1img.png",
@@ -114,7 +112,7 @@ export const profile = {
       start: "2025-08",
       end: "2025-09",
       summary:
-        "I work with clients to build custom websites and web applications that are fast, accessible, and visually appealing. I specialize in front-end development using modern JavaScript frameworks and tools.",
+        "Designed and developed a responsive marketing and booking site for a Vancouver cleaning company. Delivered a polished, mobile-first experience in React and TypeScript with a focus on performance and clear conversion paths.",
     },
     {
       role: "Freelance Web Developer / Designer",
@@ -123,7 +121,7 @@ export const profile = {
       start: "2025-09",
       end: "2025-10",
       summary:
-        "At Terrafamilia, I collaborate with a talented team to create engaging and effective family tree visualization tools for our clients. I focus on building responsive and user-friendly interfaces that help our clients achieve their business goals.",
+        "Built a forum-style community web app for a client wanting a dedicated space to engage with their online community. Implemented real-time data, auth, and threaded discussions using React, TypeScript, Tailwind CSS, and Supabase.",
     },
     {
       role: "Manager",
@@ -152,6 +150,13 @@ export const profile = {
       start: "2025-01-06",
       end: "2025-07-16",
       gpa: "83%",
+    },
+    {
+      school: "freeCodeCamp",
+      degree: "Responsive Web Design Certification",
+      start: "2023-11-01",
+      end: "2023-12-15",
+      gpa: "",
     },
     // { school: "", degree: "", start: "", end: "" },
   ] as Education[],
