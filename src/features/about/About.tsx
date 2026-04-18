@@ -67,10 +67,39 @@ export function About() {
                 </span>
               ))}
             </div>
+            <div className="mt-6">
+              <Marginalia className="block mb-4">Secondary Stack</Marginalia>
+              <div className="flex flex-wrap gap-2">
+                {stack.secondary.map((tech) => (
+                  <span
+                    key={tech}
+                    className="font-mono text-xs px-3 py-1.5 rounded-full border border-(--rule) text-(--muted) hover:border-(--accent) hover:text-(--accent) transition-colors"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="mt-6">
+              <Marginalia className="block mb-4">Tools</Marginalia>
+              <div className="flex flex-wrap gap-2">
+                {stack.tools.map((tech) => (
+                  <span
+                    key={tech}
+                    className="font-mono text-xs px-3 py-1.5 rounded-full border border-(--rule) text-(--muted) hover:border-(--accent) hover:text-(--accent) transition-colors"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
 
             {stack.learning.length > 0 && (
               <div className="mt-6">
-                <Marginalia className="block mb-4">Currently Learning</Marginalia>
+                <Marginalia className="block mb-4">
+                  Currently Learning
+                </Marginalia>
                 <div className="flex flex-wrap gap-2">
                   {stack.learning.map((tech) => (
                     <span

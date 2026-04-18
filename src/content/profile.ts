@@ -40,9 +40,9 @@ export const profile = {
       "JavaScript",
       "Next.js",
       "Tailwind CSS",
-      "Claude Code",
     ] as string[], // featured prominently, e.g. ["React", "TypeScript", "Next.js"]
-    secondary: ["HTML5", "CSS3", "Sass"] as string[], // supporting skills
+    secondary: ["HTML5", "CSS3", "Sass", "PHP"] as string[], // supporting skills
+    tools: ["Git", "VS Code", "Figma", "Claude Code"] as string[], // design, dev tools, etc.
     learning: ["Python"] as string[], // optional — what you're exploring now
   },
 
@@ -51,12 +51,13 @@ export const profile = {
     {
       slug: "mexaclean",
       name: "Mexaclean",
-      tagline: "Booking and marketing site for a Vancouver cleaning company.",
+      tagline:
+        "Marketing site with custom CMS for a Vancouver cleaning company.",
       description:
-        "Client site for Mexaclean, a Vancouver-based cleaning service. Built a responsive marketing and booking experience in React and TypeScript with Tailwind CSS, focusing on fast load times, clear calls to action, and a polished mobile experience.",
+        "Client site for Mexaclean, a Vancouver-based cleaning service. Built a responsive marketing site in React and TypeScript with Tailwind CSS showcasing services, and developed a custom CMS backed by Supabase so the client can manage their content independently.",
       url: "https://mexaclean.ca",
       repo: "https://github.com/QuinnWelton11/mexaclean",
-      stack: ["React", "TypeScript", "Tailwind CSS"],
+      stack: ["React", "TypeScript", "Tailwind CSS", "Supabase"],
       year: 2025,
       featured: true,
       image: "/projects/mexa1-1img.png",
@@ -112,7 +113,7 @@ export const profile = {
       start: "2025-08",
       end: "2025-09",
       summary:
-        "Designed and developed a responsive marketing and booking site for a Vancouver cleaning company. Delivered a polished, mobile-first experience in React and TypeScript with a focus on performance and clear conversion paths.",
+        "Designed and developed a responsive marketing site for a Vancouver cleaning company, including a custom Supabase-backed CMS so the client can manage content independently. Delivered a polished, mobile-first experience in React and TypeScript.",
     },
     {
       role: "Freelance Web Developer / Designer",
