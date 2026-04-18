@@ -3,6 +3,7 @@ import { profile } from "@/lib/profile";
 import { buildMetadata } from "@/lib/seo";
 import { Rule } from "@/components/Rule";
 import { Marginalia } from "@/components/Marginalia";
+import { PrintButton } from "./PrintButton";
 
 export const metadata: Metadata = buildMetadata({
   title: "Resume",
@@ -113,13 +114,7 @@ export default function ResumePage() {
 
       {/* Print CTA */}
       <div className="mt-12 print:hidden">
-        <button
-          type="button"
-          onClick={() => window.print()}
-          className="font-mono text-[11px] tracking-widest uppercase text-(--muted) hover:text-(--accent) transition-colors border border-(--rule) hover:border-(--accent) px-4 py-2 rounded-sm"
-        >
-          Print / Save PDF
-        </button>
+        <PrintButton />
       </div>
     </main>
   );
