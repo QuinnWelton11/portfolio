@@ -1,5 +1,6 @@
 import { profile } from "@/lib/profile";
 import { ThemeToggle } from "./ThemeToggle";
+import { MobileMenu } from "./MobileMenu";
 
 const NAV_LINKS = [
   { href: "#about", label: "About" },
@@ -18,7 +19,7 @@ export function Nav() {
         backdropFilter: "blur(12px)",
       }}
     >
-      <div className="max-w-6xl mx-auto px-6 md:px-12 h-14 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-6 md:px-12 md:h-20 h-16 flex items-center justify-between">
         <a
           href="/"
           className="font-display text-sm font-light tracking-tight text-(--ink) hover:text-(--accent) transition-colors"
@@ -41,7 +42,10 @@ export function Nav() {
           </ul>
         </nav>
 
-        <ThemeToggle />
+        <div className="flex items-center gap-3">
+          <ThemeToggle />
+          <MobileMenu />
+        </div>
       </div>
     </header>
   );

@@ -32,7 +32,8 @@ export function Contact() {
             variants={fadeUp}
             custom={0}
           >
-            Let&apos;s work<br />
+            Let&apos;s work
+            <br />
             <span style={{ color: "var(--accent)" }}>together.</span>
           </motion.h2>
 
@@ -44,7 +45,8 @@ export function Contact() {
             variants={fadeUp}
             custom={1}
           >
-            I&apos;m currently open to new opportunities. Whether you have a project in mind or just want to connect, I&apos;d love to hear from you.
+            I am currently seeking full-time and part-time opportunities in
+            front-end development, UI/UX Design, and related fields.
           </motion.p>
 
           <motion.div
@@ -59,7 +61,12 @@ export function Contact() {
               className="inline-flex items-center gap-3 font-display font-light text-2xl text-(--ink) hover:text-(--accent) transition-colors group"
             >
               <span>{profile.contact.email}</span>
-              <span className="text-(--rule) group-hover:text-(--accent) transition-colors" aria-hidden="true">→</span>
+              <span
+                className="text-(--rule) group-hover:text-(--accent) transition-colors"
+                aria-hidden="true"
+              >
+                →
+              </span>
             </a>
           </motion.div>
 
@@ -77,7 +84,9 @@ export function Contact() {
                 key={label}
                 href={href}
                 target={href.startsWith("http") ? "_blank" : undefined}
-                rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
+                rel={
+                  href.startsWith("http") ? "noopener noreferrer" : undefined
+                }
                 className="font-mono text-[11px] tracking-widest uppercase text-(--muted) hover:text-(--accent) transition-colors"
               >
                 {label}
