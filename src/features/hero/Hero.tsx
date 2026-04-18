@@ -150,8 +150,8 @@ export function Hero() {
           transition={{ delay: 1.2, duration: 0.6 }}
           aria-hidden="true"
         >
-          <div className="w-px h-8 bg-white/30 ml-px" />
-          <Marginalia className="text-white/40">Scroll</Marginalia>
+          <div className="w-px h-8 bg-(--rule) ml-px" />
+          <Marginalia>Scroll</Marginalia>
         </motion.div>
       </div>
     </section>
