@@ -33,6 +33,8 @@ export function Hero() {
           fill
           priority
           fetchPriority="high"
+          sizes="100vw"
+          quality={75}
           className="object-cover object-center"
           aria-hidden="true"
           style={{
