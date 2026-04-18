@@ -34,14 +34,14 @@ export function buildMetadata(overrides: Partial<Metadata> = {}): Metadata {
   };
 }
 
-export function buildProjectMetadata(slug: string, name: string, tagline: string): Metadata {
+export function buildProjectMetadata(_slug: string, name: string, tagline: string): Metadata {
   return buildMetadata({
     title: name,
     description: tagline,
     openGraph: {
       title: `${name} — ${profile.seo.siteName}`,
       description: tagline,
-      images: [{ url: `/api/og/${slug}`, width: 1200, height: 630 }],
+      images: profile.seo.ogImage ? [{ url: profile.seo.ogImage, width: 1200, height: 630 }] : [],
     },
   });
 }
