@@ -79,7 +79,7 @@ export const profile = {
 
     {
       slug: "qraft-digital",
-      name: "Qraft Digital",
+      name: "QRaft Digital",
       tagline: "Personal freelance brand and agency site.",
       description:
         "Qraft Digital is my freelance web development brand. Designed and built the site from scratch in React and JavaScript with Tailwind CSS to showcase services and attract clients — clean layout, fast performance, and a clear value proposition for small businesses.",
