@@ -28,8 +28,8 @@ export const profile = {
     x: "", // (Twitter)
     bluesky: "",
     mastodon: "",
-    website: "", // this portfolio's canonical URL
-    resume: "", // link to PDF/page
+    website: "https://quinnwelton-portfolio.vercel.app/", // this portfolio's canonical URL
+    resume: "/quinnwelton-2026.pdf", // link to PDF/page
   },
 
   // ---- Stack / Skills ----
