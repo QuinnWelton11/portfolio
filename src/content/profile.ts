@@ -128,7 +128,7 @@ export const profile = {
       role: "Manager",
       company: "Trapped Coquitlam Escape Rooms",
       companyUrl: "https://trapped.com/locations/coquitlam",
-      start: "2020-02",
+      start: "2023-11",
       end: "2024-12",
       summary:
         "Managed daily operations, coordinated staff schedules, and ensured exceptional customer service at a popular escape room venue. Developed strong leadership and organizational skills while fostering a positive team environment.",
