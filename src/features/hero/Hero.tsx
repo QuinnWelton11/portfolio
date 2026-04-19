@@ -28,7 +28,7 @@ export function Hero() {
       {/* Full-bleed background image with elliptical feathered masks */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/backgroundImages/home-bg.webp"
+          src="/backgroundImages/projects-bg.webp"
           alt=""
           fill
           priority
@@ -54,7 +54,6 @@ export function Hero() {
         />
       </div>
 
-
       {/* Content */}
       <div className="relative z-10 pt-14 px-6 md:px-12 max-w-6xl mx-auto w-full flex flex-col justify-center min-h-screen py-20">
         {/* Location + availability badge */}
@@ -67,13 +66,19 @@ export function Hero() {
         >
           <span
             className="font-mono text-[11px] tracking-widest uppercase text-white/80 px-3 py-1.5 rounded-full"
-            style={{ background: "rgba(0,0,0,0.45)", backdropFilter: "blur(8px)" }}
+            style={{
+              background: "rgba(0,0,0,0.45)",
+              backdropFilter: "blur(8px)",
+            }}
           >
             {profile.location}
           </span>
           <span
             className="font-mono text-[11px] tracking-widest uppercase flex items-center gap-1.5 px-3 py-1.5 rounded-full"
-            style={{ background: "rgba(0,0,0,0.45)", backdropFilter: "blur(8px)" }}
+            style={{
+              background: "rgba(0,0,0,0.45)",
+              backdropFilter: "blur(8px)",
+            }}
           >
             <span
               className="inline-block w-1.5 h-1.5 rounded-full bg-(--accent)"
@@ -136,7 +141,10 @@ export function Hero() {
                   href.startsWith("http") ? "noopener noreferrer" : undefined
                 }
                 className="font-mono text-[11px] tracking-widest uppercase text-white/70 hover:text-white transition-colors px-3 py-1.5 rounded-full"
-                style={{ background: "rgba(0,0,0,0.45)", backdropFilter: "blur(8px)" }}
+                style={{
+                  background: "rgba(0,0,0,0.45)",
+                  backdropFilter: "blur(8px)",
+                }}
               >
                 {label}
               </a>

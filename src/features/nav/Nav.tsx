@@ -22,7 +22,7 @@ export function Nav() {
       <div className="max-w-6xl mx-auto px-6 md:px-12 md:h-20 h-16 flex items-center justify-between">
         <a
           href="/"
-          className="font-display text-sm font-light tracking-tight text-(--ink) hover:text-(--accent) transition-colors"
+          className="font-display text-[16px] md:text-[18px] font-light tracking-tight text-(--ink) hover:text-(--accent) transition-colors"
         >
           {profile.displayName || profile.name}
         </a>
