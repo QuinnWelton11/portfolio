@@ -78,17 +78,17 @@ export const profile = {
     },
 
     {
-      slug: "qraft-digital",
-      name: "QRaft Digital",
-      tagline: "Personal freelance brand and agency site.",
+      slug: "tic-tac-toe",
+      name: "Tic Tac Toe",
+      tagline: "Tic Tac Toe with a difficulty-aware computer opponent.",
       description:
-        "Qraft Digital is my freelance web development brand. Designed and built the site from scratch in React and JavaScript with Tailwind CSS to showcase services and attract clients — clean layout, fast performance, and a clear value proposition for small businesses.",
-      url: "https://qraftdigital.ca",
-      repo: "https://github.com/QuinnWelton11/qraft-digital",
-      stack: ["React", "JavaScript", "Tailwind CSS"],
+        "Browser-based Tic Tac Toe featuring a computer opponent that adapts its strategy to the selected difficulty level. Built from scratch with vanilla HTML, CSS, and JavaScript — no frameworks.",
+      url: "https://quinnwelton11.github.io/finalProject/",
+      repo: "https://github.com/QuinnWelton11/finalProject",
+      stack: ["HTML5", "CSS3", "JavaScript"],
       year: 2025,
       featured: true,
-      image: "/projects/qraft1-1img.png",
+      image: "/projects/tic-tac-example.png",
     },
     // {
     //   slug: "project-a",

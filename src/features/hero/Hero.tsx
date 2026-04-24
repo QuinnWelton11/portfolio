@@ -67,7 +67,7 @@ export function Hero() {
           <span
             className="font-mono text-[11px] tracking-widest uppercase text-white/80 px-3 py-1.5 rounded-full"
             style={{
-              background: "rgba(0,0,0,0.45)",
+              background: "rgba(0,0,0,0.5)",
               backdropFilter: "blur(8px)",
             }}
           >
@@ -76,7 +76,7 @@ export function Hero() {
           <span
             className="font-mono text-[11px] tracking-widest uppercase flex items-center gap-1.5 px-3 py-1.5 rounded-full"
             style={{
-              background: "rgba(0,0,0,0.45)",
+              background: "rgba(0,0,0,0.5)",
               backdropFilter: "blur(8px)",
             }}
           >
@@ -142,7 +142,7 @@ export function Hero() {
                 }
                 className="font-mono text-[11px] tracking-widest uppercase text-white/70 hover:text-white transition-colors px-3 py-1.5 rounded-full"
                 style={{
-                  background: "rgba(0,0,0,0.45)",
+                  background: "rgba(0,0,0,0.5)",
                   backdropFilter: "blur(8px)",
                 }}
               >

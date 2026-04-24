@@ -7,7 +7,13 @@ import type { Project } from "@/lib/profile";
 import { Marginalia } from "@/components/Marginalia";
 import { fadeUp } from "@/lib/motion";
 
-export function ProjectCard({ project, index }: { project: Project; index: number }) {
+export function ProjectCard({
+  project,
+  index,
+}: {
+  project: Project;
+  index: number;
+}) {
   return (
     <motion.article
       initial="hidden"
@@ -21,13 +27,13 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
         className="group block focus-visible:outline-(--accent)"
       >
         {/* Image */}
-        <div className="relative overflow-hidden rounded-sm aspect-[4/3] mb-5 bg-(--surface)">
+        <div className="relative overflow-hidden rounded-sm aspect-square mb-5 bg-(--surface)">
           {project.image ? (
             <Image
               src={project.image}
               alt={project.name}
               fill
-              className="object-cover grayscale group-hover:grayscale-0 group-hover:scale-[1.02] transition-all duration-500"
+              className="object-cover object-top grayscale group-hover:grayscale-0 group-hover:scale-[1.02] transition-all duration-500"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           ) : (
@@ -46,7 +52,9 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
             <h3 className="font-display font-light text-xl text-(--ink) group-hover:text-(--accent) transition-colors">
               {project.name}
             </h3>
-            <p className="text-sm text-(--muted) mt-1 leading-snug">{project.tagline}</p>
+            <p className="text-sm text-(--muted) mt-1 leading-snug">
+              {project.tagline}
+            </p>
           </div>
           <span
             className="font-mono text-(--muted) text-xs mt-1 group-hover:text-(--accent) transition-colors shrink-0"
