@@ -1,0 +1,179 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Quinn Welton" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - navigation "Primary" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "About" [ref=e9] [cursor=pointer]:
+              - /url: "#about"
+          - listitem [ref=e10]:
+            - link "Work" [ref=e11] [cursor=pointer]:
+              - /url: "#work"
+          - listitem [ref=e12]:
+            - link "Experience" [ref=e13] [cursor=pointer]:
+              - /url: "#experience"
+          - listitem [ref=e14]:
+            - link "Contact" [ref=e15] [cursor=pointer]:
+              - /url: "#contact"
+  - main [ref=e17]:
+    - region "I build fast, accessible web apps." [ref=e18]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: Vancouver, BC
+        - generic [ref=e25]: Open to work
+      - heading "I build fast, accessible web apps." [level=1] [ref=e26]:
+        - generic [ref=e27]: I
+        - generic [ref=e28]: build
+        - generic [ref=e29]: fast,
+        - generic [ref=e30]: accessible
+        - generic [ref=e31]: web
+        - generic [ref=e32]: apps.
+      - generic [ref=e33]:
+        - paragraph [ref=e35]: Front-end developer passionate about creating intuitive user experiences.
+        - generic [ref=e36]:
+          - link "GitHub" [ref=e37] [cursor=pointer]:
+            - /url: https://github.com/QuinnWelton11
+          - link "LinkedIn" [ref=e38] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/quinn-w-335647341
+          - link "Email" [ref=e39] [cursor=pointer]:
+            - /url: mailto:quinn.welton@gmail.com
+      - generic [ref=e42]: Scroll
+    - region "Front-End Developer" [ref=e43]:
+      - separator [ref=e44]
+      - generic [ref=e45]:
+        - generic [ref=e46]: About
+        - generic [ref=e47]:
+          - heading "Front-End Developer" [level=2] [ref=e48]
+          - paragraph [ref=e49]: I'm a front-end developer with a focus on creating performant and accessible web applications. I enjoy working with modern JavaScript frameworks and tools to bring ideas to life.
+          - generic [ref=e50]:
+            - generic [ref=e51]: Primary Stack
+            - generic [ref=e52]:
+              - generic [ref=e53]: React
+              - generic [ref=e54]: TypeScript
+              - generic [ref=e55]: JavaScript
+              - generic [ref=e56]: Next.js
+              - generic [ref=e57]: Tailwind CSS
+              - generic [ref=e58]: Claude Code
+            - generic [ref=e59]:
+              - generic [ref=e60]: Currently Learning
+              - generic [ref=e62]: Python
+    - region "Projects" [ref=e63]:
+      - separator [ref=e64]
+      - generic [ref=e65]:
+        - generic [ref=e67]: Selected Work
+        - heading "Projects" [level=2] [ref=e68]
+      - generic [ref=e69]:
+        - article [ref=e70]:
+          - link "Mexaclean 2025 Mexaclean A cleaning service website built with Next.js and Tailwind CSS. React Tailwind CSS JavaScript" [ref=e71] [cursor=pointer]:
+            - /url: /work/mexaclean
+            - img "Mexaclean" [ref=e73]
+            - generic [ref=e75]:
+              - generic [ref=e76]:
+                - generic [ref=e77]: "2025"
+                - heading "Mexaclean" [level=3] [ref=e78]
+                - paragraph [ref=e79]: A cleaning service website built with Next.js and Tailwind CSS.
+              - generic [ref=e80]: →
+            - generic [ref=e81]:
+              - generic [ref=e82]: React
+              - generic [ref=e83]: Tailwind CSS
+              - generic [ref=e84]: JavaScript
+        - article [ref=e85]:
+          - link "Terrafamilia 2025 Terrafamilia A family tree visualization tool built with React and D3.js. React Tailwind CSS JavaScript Supabase" [ref=e86] [cursor=pointer]:
+            - /url: /work/terrafamilia
+            - img "Terrafamilia" [ref=e88]
+            - generic [ref=e90]:
+              - generic [ref=e91]:
+                - generic [ref=e92]: "2025"
+                - heading "Terrafamilia" [level=3] [ref=e93]
+                - paragraph [ref=e94]: A family tree visualization tool built with React and D3.js.
+              - generic [ref=e95]: →
+            - generic [ref=e96]:
+              - generic [ref=e97]: React
+              - generic [ref=e98]: Tailwind CSS
+              - generic [ref=e99]: JavaScript
+              - generic [ref=e100]: Supabase
+        - article [ref=e101]:
+          - link "Qraft Digital 2025 Qraft Digital A digital marketing agency website built with Next.js and Tailwind CSS. React Tailwind CSS JavaScript" [ref=e102] [cursor=pointer]:
+            - /url: /work/qraft-digital
+            - img "Qraft Digital" [ref=e104]
+            - generic [ref=e106]:
+              - generic [ref=e107]:
+                - generic [ref=e108]: "2025"
+                - heading "Qraft Digital" [level=3] [ref=e109]
+                - paragraph [ref=e110]: A digital marketing agency website built with Next.js and Tailwind CSS.
+              - generic [ref=e111]: →
+            - generic [ref=e112]:
+              - generic [ref=e113]: React
+              - generic [ref=e114]: Tailwind CSS
+              - generic [ref=e115]: JavaScript
+      - link "All projects on GitHub" [ref=e117] [cursor=pointer]:
+        - /url: https://github.com/QuinnWelton11
+        - generic [ref=e118]: All projects on GitHub
+        - generic [ref=e119]: →
+    - region "Where I've Worked" [ref=e120]:
+      - separator [ref=e121]
+      - generic [ref=e122]:
+        - generic [ref=e123]: Experience
+        - generic [ref=e124]:
+          - heading "Where I've Worked" [level=2] [ref=e125]
+          - list "Work experience" [ref=e126]:
+            - listitem [ref=e127]:
+              - generic [ref=e129]:
+                - generic [ref=e130]:
+                  - heading "Freelance Web Developer / Designer" [level=3] [ref=e131]
+                  - link "Mexaclean" [ref=e132] [cursor=pointer]:
+                    - /url: https://mexaclean.ca
+                - generic [ref=e133]: Aug 2025 — Sep 2025
+              - paragraph [ref=e134]: I work with clients to build custom websites and web applications that are fast, accessible, and visually appealing. I specialize in front-end development using modern JavaScript frameworks and tools.
+            - listitem [ref=e135]:
+              - generic [ref=e137]:
+                - generic [ref=e138]:
+                  - heading "Freelance Web Developer / Designer" [level=3] [ref=e139]
+                  - link "Terrafamilia" [ref=e140] [cursor=pointer]:
+                    - /url: https://terrafamilia.net
+                - generic [ref=e141]: Sep 2025 — Oct 2025
+              - paragraph [ref=e142]: At Terrafamilia, I collaborate with a talented team to create engaging and effective family tree visualization tools for our clients. I focus on building responsive and user-friendly interfaces that help our clients achieve their business goals.
+            - listitem [ref=e143]:
+              - generic [ref=e145]:
+                - generic [ref=e146]:
+                  - heading "Manager" [level=3] [ref=e147]
+                  - link "Trapped Coquitlam Escape Rooms" [ref=e148] [cursor=pointer]:
+                    - /url: https://trapped.com/locations/coquitlam
+                - generic [ref=e149]: Feb 2020 — Dec 2024
+              - paragraph [ref=e150]: Managed daily operations, coordinated staff schedules, and ensured exceptional customer service at a popular escape room venue. Developed strong leadership and organizational skills while fostering a positive team environment.
+          - generic [ref=e151]:
+            - generic [ref=e152]: Education
+            - list "Education" [ref=e153]:
+              - listitem [ref=e154]:
+                - generic [ref=e155]:
+                  - heading "Certificate in Front-End Web Development" [level=3] [ref=e156]
+                  - text: British Columbia Institute of Technology
+                  - generic [ref=e157]: · 83%
+                - generic [ref=e158]: Jan 2025 — Jul 2025
+    - region "Let's work together." [ref=e159]:
+      - separator [ref=e160]
+      - generic [ref=e161]:
+        - generic [ref=e162]: Contact
+        - generic [ref=e163]:
+          - heading "Let's work together." [level=2] [ref=e164]:
+            - text: Let's work
+            - text: together.
+          - paragraph [ref=e165]: I'm currently open to new opportunities. Whether you have a project in mind or just want to connect, I'd love to hear from you.
+          - link "quinn.welton@gmail.com" [ref=e167] [cursor=pointer]:
+            - /url: mailto:quinn.welton@gmail.com
+            - generic [ref=e168]: quinn.welton@gmail.com
+            - generic [ref=e169]: →
+          - generic [ref=e170]:
+            - link "GitHub" [ref=e171] [cursor=pointer]:
+              - /url: https://github.com/QuinnWelton11
+            - link "LinkedIn" [ref=e172] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/quinn-w-335647341
+            - link "Email" [ref=e173] [cursor=pointer]:
+              - /url: mailto:quinn.welton@gmail.com
+  - contentinfo [ref=e174]:
+    - generic [ref=e175]:
+      - generic [ref=e176]: © 2026 Quinn Welton
+      - generic [ref=e177]: Vancouver, BC
