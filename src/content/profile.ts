@@ -110,8 +110,8 @@ export const profile = {
       role: "Freelance Web Developer / Designer",
       company: "Mexaclean",
       companyUrl: "https://mexaclean.ca",
-      start: "2025-08",
-      end: "2025-09",
+      start: "2025-09",
+      end: "2025-10",
       summary:
         "Designed and developed a responsive marketing site for a Vancouver cleaning company, including a custom Supabase-backed CMS so the client can manage content independently. Delivered a polished, mobile-first experience in React and TypeScript.",
     },
@@ -125,10 +125,10 @@ export const profile = {
         "Built a forum-style community web app for a client wanting a dedicated space to engage with their online community. Implemented real-time data, auth, and threaded discussions using React, TypeScript, Tailwind CSS, and Supabase.",
     },
     {
-      role: "Manager",
+      role: "Manager (Promoted From Keyholder)",
       company: "Trapped Coquitlam Escape Rooms",
       companyUrl: "https://trapped.com/locations/coquitlam",
-      start: "2023-11",
+      start: "2020-02",
       end: "2024-12",
       summary:
         "Managed daily operations, coordinated staff schedules, and ensured exceptional customer service at a popular escape room venue. Developed strong leadership and organizational skills while fostering a positive team environment.",
@@ -147,10 +147,10 @@ export const profile = {
   education: [
     {
       school: "British Columbia Institute of Technology",
-      degree: "Certificate in Front-End Web Development",
+      degree: "Certificate with Distinction in Front-End Web Development",
       start: "2025-01-06",
       end: "2025-07-16",
-      gpa: "83%",
+      gpa: "GPA 83%",
     },
     {
       school: "freeCodeCamp",
