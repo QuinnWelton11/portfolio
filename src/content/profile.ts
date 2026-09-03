@@ -29,7 +29,7 @@ export const profile = {
     bluesky: "",
     mastodon: "",
     website: "https://quinnwelton-portfolio.vercel.app/", // this portfolio's canonical URL
-    resume: "/quinnwelton-2026.pdf", // link to PDF/page
+    // resume: "/quinnwelton-2026.pdf", // link to PDF/page
   },
 
   // ---- Stack / Skills ----
