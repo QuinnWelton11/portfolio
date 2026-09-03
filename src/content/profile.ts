@@ -10,7 +10,7 @@ export const profile = {
   title: "Front-End Developer", // e.g. "Front-End Engineer", "Product Designer"
   pronouns: "", // optional, e.g. "he/him"
   location: "Vancouver, BC", // e.g. "Austin, TX" or "Remote"
-  availability: "Open to work", // e.g. "Open to work", "Not looking", "Freelance only"
+  availability: "", // e.g. "Open to work", "Not looking", "Freelance only"
 
   // ---- Bio ----
   bio: {

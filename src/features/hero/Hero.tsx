@@ -73,21 +73,6 @@ export function Hero() {
           >
             {profile.location}
           </span>
-          <span
-            className="font-mono text-[11px] tracking-widest uppercase flex items-center gap-1.5 px-3 py-1.5 rounded-full"
-            style={{
-              background: "rgba(0,0,0,0.5)",
-              backdropFilter: "blur(8px)",
-            }}
-          >
-            <span
-              className="inline-block w-1.5 h-1.5 rounded-full bg-(--accent)"
-              aria-hidden="true"
-            />
-            <span style={{ color: "var(--accent)" }}>
-              {profile.availability}
-            </span>
-          </span>
         </motion.div>
 
         {/* Headline — staggered words */}

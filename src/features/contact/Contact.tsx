@@ -32,9 +32,9 @@ export function Contact() {
             variants={fadeUp}
             custom={0}
           >
-            Let&apos;s work
+            Feel free to
             <br />
-            <span style={{ color: "var(--accent)" }}>together.</span>
+            <span style={{ color: "var(--accent)" }}>reach out!</span>
           </motion.h2>
 
           <motion.p
@@ -44,10 +44,7 @@ export function Contact() {
             viewport={{ once: true }}
             variants={fadeUp}
             custom={1}
-          >
-            I am currently seeking full-time and part-time opportunities in
-            front-end development, UI/UX Design, and related fields.
-          </motion.p>
+          ></motion.p>
 
           <motion.div
             initial="hidden"
